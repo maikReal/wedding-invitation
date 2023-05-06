@@ -1,0 +1,39 @@
+---
+// Component imports
+import { Layout } from "@globals"
+---
+
+<Layout title="Wedding Invitation">
+	<section class="p-6 flex-1 flex flex-col justify-between">
+		<!-- Welcome -->
+		<div
+			class="max-w-xl mx-auto flex flex-col justify-center flex-1 space-y-10"
+		>
+			<div class="space-y-2 text-center">
+				<h2 class="text-4xl font-extrabold dark:text-white">
+					Счастливчик! Получается ты хочешь на свадьбу?
+				</h2>
+			</div>
+			<div class="flex flex-row flex-wrap justify-center">
+				<div class="flex flex-row justify-around">
+					<a href="luckyboy-correct">
+						<button
+							type="button"
+							class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-[15px] text-[18px] px-10 py-4 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 min-w-[225px] max-w-[225px]"
+							>Продолжить</button
+						>
+					</a>
+				</div>
+				<div class="">
+					<a href="/yana-wtf">
+						<button
+							type="button"
+							class="py-4 px-10 mr-2 mb-2 font-medium text-gray-900 focus:outline-none bg-white rounded-[15px] text-[18px] border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 min-w-[225px] max-w-[225px]"
+							>Меня заставили</button
+						>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>

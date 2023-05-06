@@ -1,0 +1,122 @@
+---
+// Component imports
+import { Layout } from "@globals"
+
+const { searchParams } = Astro.url
+let name = searchParams.get("name")
+console.log(name)
+---
+
+<Layout title="Wedding Invitation">
+	<section class="p-6 flex-1 flex flex-col justify-between">
+		<!-- Welcome -->
+		<div
+			class="max-w-xl mx-auto flex flex-col justify-center flex-1 space-y-10"
+		>
+			<div class="space-y-5 text-center">
+				<h2 class="text-4xl font-extrabold dark:text-white mb-[30px]">
+					Что же по дресс коду?
+				</h2>
+				<div class="flex flex-col items-center gap-y-[30px]">
+					<div
+						class="flex bg-[#E3F4F3] justify-center min-h-[100px] max-w-[420px] rounded-[15px] py-[30px] px-[35px]"
+					>
+						<div class="flex gap-x-[25px] text-start">
+							<img
+								src="/src/assets/img/warn.png"
+								class="object-contain max-h-[35px] max-w-[35px]"
+							/>
+							<p class="font-semibold text-[16px]">
+								Забудь про спортивки! Вечернее платье или костюм. Мы поможем
+								тебе определиться с цветом 👇
+							</p>
+						</div>
+					</div>
+
+					<div class="flex flex-wrap gap-[10px] justify-center font-semibold">
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[100px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">7587 U</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[140px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">13-0402 TSX</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[100px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">P 8-9 C</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[140px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">10106 C</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[100px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">2276 U</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[100px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">2421 UP</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[100px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">7739 U</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[100px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">2273 UP</p>
+							</div>
+						</div>
+
+						<div
+							class="flex bg-[#E0E4FB] justify-center rounded-[15px] items-center w-[100px] h-[50px]"
+						>
+							<div class="flex flex-col">
+								<p class="">7734 CP</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-row justify-around">
+				<a href="congrats">
+					<button
+						type="button"
+						class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-[15px] text-[18px] px-10 py-4 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+						>Все понятно!</button
+					>
+				</a>
+			</div>
+		</div>
+	</section>
+</Layout>

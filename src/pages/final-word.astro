@@ -1,0 +1,89 @@
+---
+// Component imports
+import { Layout } from "@globals"
+---
+
+<Layout title="Wedding Invitation">
+	<section class="p-6 flex-1 flex flex-col justify-between">
+		<!-- Welcome -->
+		<div class="mx-auto flex flex-col justify-center flex-1 space-y-10">
+			<div class="flex flex-col gap-y-5 space-y-2 text-center">
+				<h2 class="text-4xl font-extrabold dark:text-white">
+					И еще немного информации 👇
+				</h2>
+			</div>
+			<div class="flex flex-col items-center gap-y-[10px]">
+				<div class="flex flex-wrap justify-center gap-[10px]">
+					<div
+						class="flex bg-[#E3F4F3] justify-center min-h-[100px] max-w-[300px] rounded-[15px] py-[30px] px-[35px]"
+					>
+						<div class="flex flex-col gap-y-[15px] text-start">
+							<img
+								src="/src/assets/img/face.png"
+								class="object-contain max-h-[35px] max-w-[35px]"
+							/>
+							<p class="font-semibold text-[16px]">
+								Кричишь горько, платишь 500 рублей
+							</p>
+						</div>
+					</div>
+
+					<div
+						class="flex bg-[#F9EFD0] justify-center min-h-[100px] max-w-[300px] rounded-[15px] py-[30px] px-[35px]"
+					>
+						<div class="flex flex-col gap-y-[15px] text-start">
+							<img
+								src="/src/assets/img/money.png"
+								class="object-contain max-h-[35px] max-w-[35px]"
+							/>
+							<p class="font-semibold text-[16px]">
+								Лучший подарок тот, который умещается в конверте
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-wrap justify-center gap-x-[10px] gap-y-[10px]">
+					<div
+						class="flex bg-[#DFE3FA] justify-center min-h-[100px] max-w-[300px] rounded-[15px] py-[30px] px-[35px]"
+					>
+						<div class="flex flex-col gap-y-[15px] text-start">
+							<img
+								src="/src/assets/img/phone.png"
+								class="object-contain max-h-[35px] max-w-[35px]"
+							/>
+							<p class="font-semibold text-[16px]">
+								По любым вопросам звони нашему организатору, Майе (номер будет в
+								чате)
+							</p>
+						</div>
+					</div>
+
+					<div
+						class="flex bg-[#F9DCD0] justify-center min-h-[100px] max-w-[300px] rounded-[15px] py-[30px] px-[35px]"
+					>
+						<div class="flex flex-col gap-y-[15px] text-start">
+							<img
+								src="/src/assets/img/cal.png"
+								class="object-contain max-h-[35px] max-w-[35px]"
+							/>
+							<p class="font-semibold text-[16px]">
+								Подтверди свои присутствие до 1 июня (И если ты +1, не забудь об
+								этом сказать)
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="flex flex-row justify-around">
+					<a href="https://t.me/+iRvDMO37y3U5MzJi">
+						<button
+							type="button"
+							class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-[15px] text-[18px] px-10 py-4 mr-2 mb-2 mt-[35px] dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+							>Нырнуть в чат</button
+						>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>

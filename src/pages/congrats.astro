@@ -1,0 +1,33 @@
+---
+// Component imports
+import { Layout } from "@globals"
+---
+
+<Layout title="Wedding Invitation">
+	<section class="p-6 flex-1 flex flex-col justify-between">
+		<!-- Welcome -->
+		<div
+			class="max-w-xl mx-auto flex flex-col justify-center flex-1 space-y-10"
+		>
+			<div class="flex flex-col gap-y-5 space-y-2 text-center">
+				<h2 class="text-4xl font-extrabold dark:text-white">
+					Поздравляем, теперь у тебя есть вся необходимая информация 🎉
+				</h2>
+				<div class="flex flex-col gap-y-3">
+					<p class="text-xl font-regular dark:text-white">
+						Листай дальше, чтобы узнать последние инструкции!
+					</p>
+				</div>
+			</div>
+			<div class="flex flex-row justify-around">
+				<a href="final-word">
+					<button
+						type="button"
+						class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-[15px] text-[18px] px-10 py-4 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+						>Далее</button
+					>
+				</a>
+			</div>
+		</div>
+	</section>
+</Layout>
